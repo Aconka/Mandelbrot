@@ -1,0 +1,15 @@
+&a+bi
+ClrDraw
+11->N
+For(A,&@c&rad,&@c&deg,&@c&@&
+For(B,&@c&^-1,&@c&^2,&@cfMin(
+A+B&i->C
+For(I,N,2,&-1
+Ans^2+C
+If 2<abs(Ans
+1->I
+End
+If I
+Pt-On(A,B,4
+End
+End
